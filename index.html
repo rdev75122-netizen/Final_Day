@@ -1,0 +1,81 @@
+<!-- ======================= index.html ======================= -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Valentine ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+    <!-- PAGE 1 : INTRO -->
+    <section class="page page-1 active">
+        <div class="hero">
+            <h1>To the One Who Makes My World Softer ✨</h1>
+            <p>Every moment with you feels like a promise written by fate.</p>
+            <img src="/media/intro2.webp" class="hero-img" />
+            <button onclick="goToPage(2)">Begin Our Story 💖</button>
+        </div>
+    </section>
+
+
+    <!-- PAGE 2 : MEMORY CARDS -->
+    <section class="page page-2">
+        <h2>Our Past Beautiful Days 🌸</h2>
+        <div class="cards-grid" id="cardsGrid"></div>
+    </section>
+
+
+    <!-- PAGE 3 : DATE PLAN -->
+    <section class="page page-3">
+        <h2>Our Perfect Date Plan 💕</h2>
+        <div class="date-cards-grid" id="dateCardsGrid"></div>
+        <div class="ready-btn-container hidden" id="readyBtnContainer">
+            <button id="readyBtn" onclick="goToPage(4)">Are you ready to have fun with me? 💖</button>
+        </div>
+    </section>
+
+
+    <!-- PAGE 4 : FINAL MESSAGE -->
+    <section class="page page-4">
+        <div class="final-message">
+            <h2>So... I need to Ask You Something 💕</h2>
+            <p><strong>Will you be my Valentine?</strong><br>
+                <i>Not just for February 14th.</i><br>
+                But for <strong>every day after.</strong><br>
+                For the <em>rest of our lives.</em><br><br>
+
+                Because <strong>one day isn't enough.</strong><br>
+                I want you as my <i>Valentine forever.</i><br><br>
+
+                So what do you say?<br>
+                <strong>Will you be mine?</strong><br>
+                <em><strong>Always?</strong></em>
+            </p>
+
+            <div class="writing-card">
+                <div class="lines">
+                    <input type="text" class="line-input" placeholder="Write your thoughts here...">
+                    <input type="text" class="line-input" placeholder="">
+                    <input type="text" class="line-input" placeholder="">
+                    <input type="text" class="line-input" placeholder="">
+                    <input type="text" class="line-input" placeholder="">
+                    <input type="text" class="line-input" placeholder="">
+                    <input type="text" class="line-input" placeholder="">
+                    <input type="text" class="line-input" placeholder="">
+                </div>
+            </div>
+
+            <p class="instruction">Write your response and send screenshot to your partner 💌</p>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
